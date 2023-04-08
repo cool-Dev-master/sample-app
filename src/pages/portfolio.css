@@ -1,0 +1,39 @@
+
+.wrapper {
+    background-color: #282c34;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    animation: logo-spin infinite 20s linear;
+}
+
+
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
